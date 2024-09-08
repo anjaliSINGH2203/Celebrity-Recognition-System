@@ -29,7 +29,7 @@ Create S3 bucket
 aws s3 mb s3://bucket-name --region us-east-1
 ```
 
-
+               ### ALTERNATE METHOD
 ### To create a celebrity recognition system using Amazon Rekognition through the AWS Console, follow these steps:
 
 ### Step 1: Set Up Your AWS Account
@@ -123,9 +123,6 @@ def lambda_handler(event, context):
 
 To make this more user-friendly, you could build a simple front-end using Amazon API Gateway and AWS Lambda to expose the celebrity recognition functionality as an API, and then build a website or application that users can interact with to upload images and view results.
 
-### Next Steps:
 
-- Explore **Amazon Rekognition Video** to recognize celebrities in videos.
-- Explore Rekognition's other features like **facial analysis**, **object detection**, or **content moderation**.
 
 This setup allows you to recognize celebrities in images and automate it using Lambda.
