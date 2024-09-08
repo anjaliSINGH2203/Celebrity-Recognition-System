@@ -30,7 +30,7 @@ aws s3 mb s3://bucket-name --region us-east-1
 ```
 
 
-To create a celebrity recognition system using Amazon Rekognition through the AWS console, follow these steps:
+### To create a celebrity recognition system using Amazon Rekognition through the AWS Console, follow these steps:
 
 ### Step 1: Set Up Your AWS Account
 
